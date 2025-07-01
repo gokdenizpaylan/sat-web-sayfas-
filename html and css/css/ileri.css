@@ -1,0 +1,175 @@
+body {
+    background: linear-gradient(135deg, #0d1b2a, #005f73);
+    color: #e0f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .hero {
+    padding: 80px 15px;
+    text-align: center;
+    background: rgba(0, 95, 115, 0.85);
+    border-radius: 12px;
+    margin: 30px auto;
+    max-width: 900px;
+  }
+  .hero h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #00ffc3;
+    text-shadow: 0 0 10px #00ffc3;
+  }
+  .hero p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    color: #b2dfdb;
+  }
+  .btn-hero {
+    background: #00ffc3;
+    color: #0d1b2a;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: none;
+    transition: background 0.3s ease;
+  }
+  .btn-hero:hover {
+    background: #00e6b8;
+  }
+  .features {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 15px;
+  }
+  .features h2 {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 40px;
+    font-size: 2.8rem;
+    color: #00bfa5;
+  }
+  .feature-list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+    color: #a7ffeb;
+  }
+  .feature-list li {
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+  }
+  .feature-list li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #00ffc3;
+    font-weight: 900;
+  }
+  .pricing {
+    background: rgba(0, 95, 115, 0.85);
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px 30px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .pricing h2 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #00ffc3;
+  }
+  .price {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #00e6b8;
+    margin-bottom: 15px;
+  }
+  .price-sub {
+    font-size: 1.2rem;
+    color: #b2dfdb;
+    margin-bottom: 30px;
+  }
+  .btn-buy {
+    background: #00ffc3;
+    color: #0d1b2a;
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding: 15px 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .btn-buy:hover {
+    background: #00e6b8;
+  }
+  .testimonials {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 0 15px;
+    color: #a7ffeb;
+  }
+  .testimonials h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #00bfa5;
+    text-align: center;
+  }
+  .testimonial {
+    background: rgba(0, 95, 115, 0.6);
+    padding: 25px 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    font-style: italic;
+  }
+  .testimonial strong {
+    display: block;
+    margin-top: 15px;
+    font-weight: 700;
+    color: #00ffc3;
+  }
+  .faq {
+    max-width: 900px;
+    margin: 60px auto 120px;
+    padding: 0 15px;
+    color: #a7ffeb;
+  }
+  .faq h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #00bfa5;
+    text-align: center;
+  }
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  .faq-question {
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .faq-answer {
+    margin-top: 8px;
+    font-size: 1.1rem;
+    color: #d0f4f4;
+  }
+  @media (max-width: 576px) {
+    .hero h1 {
+      font-size: 2.4rem;
+    }
+    .features h2,
+    .pricing h2,
+    .testimonials h2,
+    .faq h2 {
+      font-size: 2rem;
+    }
+    .price {
+      font-size: 3rem;
+    }
+  }

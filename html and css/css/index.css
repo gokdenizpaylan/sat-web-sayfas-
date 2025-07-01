@@ -1,0 +1,110 @@
+body {
+  background: linear-gradient(135deg, #0d1b2a, #003d5b);
+  color: #e0f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav.navbar {
+  background-color: #004d73 !important;
+}
+.navbar-brand, .nav-link {
+  color: #a7ffeb !important;
+  font-weight: 600;
+}
+.nav-link.active {
+  color: #00ffc3 !important;
+}
+.hero {
+  padding: 80px 15px;
+  text-align: center;
+  background: rgba(0, 77, 115, 0.85);
+  border-radius: 12px;
+  margin: 30px auto 50px;
+  max-width: 900px;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: #00ffc3;
+  text-shadow: 0 0 10px #00ffc3;
+}
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  color: #b2dfdb;
+}
+.btn-hero {
+  background: #00ffc3;
+  color: #0d1b2a;
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding: 15px 40px;
+  border-radius: 50px;
+  border: none;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+.btn-hero:hover {
+  background: #00e6b8;
+}
+.packages {
+  max-width: 960px;
+  margin: 0 auto 80px;
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.package-card {
+  background: #1b263b;
+  border-radius: 15px;
+  padding: 25px 20px;
+  box-shadow: 0 8px 20px rgba(0, 180, 216, 0.2);
+  flex: 1 1 400px;
+  color: #caf0f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.package-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 180, 216, 0.5);
+}
+.package-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #00b4d8;
+  margin-bottom: 15px;
+}
+.package-desc {
+  font-size: 1.1rem;
+  color: #bcd4e6;
+  flex-grow: 1;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+.btn-primary {
+  background-color: #00b4d8;
+  border: none;
+  padding: 12px 28px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  color: #0d1b2a;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+.btn-primary:hover {
+  background-color: #0094b8;
+  color: #e0e0e0;
+}
+@media (max-width: 768px) {
+  .packages {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
